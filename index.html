@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Webmap Viewer</title>
+</head>
+<body>
+  <h1>Welcome to My Webmap</h1>
+  <script>
+    fetch("manifest.json")
+      .then(res => res.json())
+      .then(data => {
+        data.images.forEach(url => {
+          const img = document.createElement("img");
+          img.src = url;
+          img.style.width = "200px";
+          img.style.margin = "10px";
+          document.body.appendChild(img);
+        });
+
+        data.json.forEach(url => {
+          fetch(url).then(res => res.json()).then(json => {
+            console.log("Loaded JSON:", json);
+          });
+        });
+      });
+  </script>
+</body>
+</html>
