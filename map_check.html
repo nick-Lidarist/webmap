@@ -152,6 +152,19 @@
       background-color: #005A9E;
     }
 
+    #cornerText {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    }
 
     /* Loading indicator */
     #loading {
@@ -195,6 +208,8 @@
 <!--button id="loadDataBtn">Load Data</button-->
 <!--input type="file" id="fileInput" webkitdirectory directory multiple /-->
 <button id="exportButton" style="display: none;">Export to checked.json</button>
+<div id="cornerText">FOR NON-COMMERCIAL USE ONLY</div>
+
 <div id="loading">Loading GeoJSON and images...</div>
 <div id="legend">
   <h3>Features with '租'</h3>
