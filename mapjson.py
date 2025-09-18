@@ -5,7 +5,7 @@ import json
 base_url = "https://nick-Lidarist.github.io/webmap"
 
 # ✅ Local folder to scan
-local_root = r"C:\Users\mhkwa\Desktop\pcl\webmap"
+local_root = r"C:\Users\mhkwa\Desktop\pcl\webmapCopy"
 
 # ✅ File types to include
 valid_exts = {".jpg", ".json", ".geojson"}
