@@ -60,16 +60,18 @@ def split_folder_preserve_json(folder_path, max_files=900):
                 json.dump(new_json, f, indent=2, ensure_ascii=False)
             print(f"📝 JSON saved: {json_filename} in {new_folder_name}")
 
-    # 🧹 Delete only JSON files from original folder
-    for json_file in json_files:
-        try:
-            os.remove(os.path.join(folder_path, json_file))
-            print(f"🗑️ Deleted JSON: {json_file}")
-        except Exception as e:
-            print(f"⚠️ Could not delete JSON {json_file}: {e}")
+    # 🧹 Delete the entire original folder
+    try:
+        shutil.rmtree(folder_path)
+        print(f"🧹 Deleted original folder: {folder_path}")
+    except Exception as e:
+        print(f"⚠️ Could not delete folder: {e}")
 
 def process_all_folders(root_folder):
     for dirpath, dirnames, filenames in os.walk(root_folder):
+        # Skip folders that were already split
+        if any(dirpath.endswith(f"_{i}") for i in range(1, 100)):
+            continue
         split_folder_preserve_json(dirpath)
 
 # 🔧 Run it on your root directory

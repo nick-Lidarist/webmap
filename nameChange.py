@@ -4,11 +4,9 @@ import re
 
 def clean_filename(filename, folder_prefix):
     # Remove any existing folder-like prefix from filename
-    pattern = re.compile(rf"^{folder_prefix}_.+?_(.+\.jpg)$")
+    pattern = re.compile(rf"(?:{folder_prefix}_)+(.+\.jpg)", re.IGNORECASE)
     match = pattern.match(filename)
-    if match:
-        return match.group(1)  # Extract original filename
-    return filename
+    return match.group(1) if match else filename
 
 def rename_images_and_update_json(root_folder):
     for dirpath, _, filenames in os.walk(root_folder):
@@ -30,7 +28,7 @@ def rename_images_and_update_json(root_folder):
                 if filename != new_filename:
                     os.rename(old_path, new_path)
                     rename_map[filename] = new_filename
-                    rename_map[base_name] = new_filename  # Handle both original and previously renamed
+                    rename_map[base_name] = new_filename
                     print(f"✅ Renamed: {filename} → {new_filename}")
 
         # 📝 Update JSON references
@@ -50,8 +48,10 @@ def rename_images_and_update_json(root_folder):
                                     original = props[key]
                                     normalized = clean_filename(original, folder_prefix)
                                     new_img = f"{folder_prefix}_{normalized}" if folder_prefix else normalized
-                                    if original != new_img:
-                                        props[key] = new_img
+                                    rel_folder = rel_path.replace("\\", "/") if rel_path != "." else ""
+                                    full_path = f"{rel_folder}/{new_img}" if rel_folder else new_img
+                                    if props[key] != full_path:
+                                        props[key] = full_path
                                         changed = True
 
                     if changed:
@@ -62,5 +62,5 @@ def rename_images_and_update_json(root_folder):
                 except Exception as e:
                     print(f"⚠️ Failed to process {filename}: {e}")
 
-# 🔧 Run it
+# 🔧 Run it on your root directory
 rename_images_and_update_json(r"C:\Users\mhkwa\Desktop\pcl\webmapCopy")
