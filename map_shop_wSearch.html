@@ -87,9 +87,9 @@
   <div id="map"></div>
   <div id="loading" style="display:none;">Loading...</div>
   <!-- File load box (left) -->
-  <div id="fileBox" class="floating-box">
-    <button id="geojsonButton">📂 Load GeoJSON</button>
-  </div>
+  <!--div id="fileBox" class="floating-box"-->
+    <!--button id="geojsonButton">📂 Load GeoJSON</button-->
+  <!--/div-->
 
   <!-- Search box (right) -->
   <div id="searchBox" class="floating-box">
@@ -200,23 +200,20 @@
       }
     }
 
-    document.getElementById('fileBox').addEventListener('click', async function () {
+    async function loadGeojsonFromManifest() {
       document.getElementById('loading').style.display = 'block';
 
       try {
-        // Load manifest.json from GitHub
         const manifestUrl = "https://nick-Lidarist.github.io/webmap/manifest.json";
         const manifestRes = await fetch(manifestUrl);
         const manifest = await manifestRes.json();
 
-        // Use the first .geojson file found
         const geojsonUrl = manifest.geojson?.[0] || manifest.json?.[0];
         if (!geojsonUrl) {
           alert("No GeoJSON or JSON files found in manifest.");
           return;
         }
 
-        // Fetch and parse the GeoJSON file
         const geojsonRes = await fetch(geojsonUrl);
         const geojson = await geojsonRes.json();
 
@@ -226,7 +223,7 @@
         }
 
         allFeatures = geojson.features || [];
-        renderFeatures(allFeatures); // Same behavior as your original function
+        renderFeatures(allFeatures);
 
       } catch (err) {
         alert("Error loading GeoJSON from GitHub: " + err.message);
@@ -234,7 +231,10 @@
       } finally {
         document.getElementById('loading').style.display = 'none';
       }
-    });
+    }
+
+    window.addEventListener("DOMContentLoaded", loadGeojsonFromManifest);
+
   </script>
 </body>
 </html>
