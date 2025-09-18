@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Rental GeoJSON Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    html, body { height:100%; margin:0; font-family: 'Segoe UI', sans-serif; background:#f0f2f5; }
+    #map { width:100%; height:100%; }
+
+    /* File input styling */
+    #fileInput {
+      position:absolute; top:10px; left:10px; z-index:1000; 
+      background:#ffffff; padding:10px 14px; border-radius:6px; 
+      box-shadow:0 2px 6px rgba(0,0,0,0.25); border:none; 
+      font-size:14px; cursor:pointer;
+    }
+
+    /* Legend panel */
+    #legend {
+      position:absolute; top:10px; right:10px; z-index:1000; 
+      background:#ffffff; padding:16px 20px; border-radius:8px; 
+      box-shadow:0 4px 12px rgba(0,0,0,0.25); font-size:15px; 
+      line-height:1.6em; min-width:160px;
+    }
+    #legend h3 {
+      margin:0 0 8px 0; font-size:16px; color:#333;
+      border-bottom:1px solid #ddd; padding-bottom:4px;
+    }
+    .legend-item {
+      display:flex; align-items:center; justify-content:space-between; margin:4px 0;
+    }
+    .legend-dot {
+      width:14px; height:14px; border-radius:50%; display:inline-block; margin-right:8px;
+    }
+
+    /* Popup styling */
+    .popup-table { font-size:14px; border-collapse:collapse; width:100%; }
+    .popup-table td { border:1px solid #ddd; padding:6px 8px; vertical-align:top; }
+    .popup-table td.key { font-weight:600; background:#f9f9f9; color:#333; }
+    .popup-img { max-width:350px; max-height:250px; margin-top:8px; border-radius:6px; border:1px solid #ccc; }
+
+    /* Circle markers by keyword */
+    .marker-出租 { fill:red; color:red; }
+    .marker-招租 { fill:orange; color:orange; }
+    .marker-旺铺 { fill:green; color:green; }
+    .marker-租售 { fill:blue; color:blue; }
+  </style>
+</head>
+<body>
+<input type="file" id="fileInput" accept=".geojson,.json"/>
+<div id="legend">
+  <h3>Vacant Shops Counts</h3>
+  <div class="legend-item"><span><span class="legend-dot" style="background:red"></span>出租</span><span id="count-出租">0</span></div>
+  <div class="legend-item"><span><span class="legend-dot" style="background:orange"></span>招租</span><span id="count-招租">0</span></div>
+  <div class="legend-item"><span><span class="legend-dot" style="background:green"></span>旺铺</span><span id="count-旺铺">0</span></div>
+  <div class="legend-item"><span><span class="legend-dot" style="background:blue"></span>租售</span><span id="count-租售">0</span></div>
+</div>
+<div id="map"></div>
+
+<script>
+const map = L.map('map').setView([22.31,114.17], 14);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 20
+}).addTo(map);
+
+const keywords = ["出租","招租","旺铺","租售"];
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function buildPopup(props) {
+  let rows = "";
+  Object.entries(props).forEach(([k,v]) => {
+    if (k === "image_path") return;
+    rows += `<tr><td class="key">${esc(k)}</td><td>${esc(v)}</td></tr>`;
+  });
+
+  let imgHtml = "";
+  if (props.image_path) {
+    imgHtml = `<div><img class="popup-img" src="${esc(props.image_path)}" alt="image" onerror="this.style.display='none'"></div>`;
+  }
+
+  return `<div><table class="popup-table">${rows}</table>${imgHtml}</div>`;
+}
+
+function updateLegendCounts(features) {
+  const counts = { "出租":0, "招租":0, "旺铺":0, "租售":0 };
+  features.forEach(f => {
+    const txt = f.properties?.text || "";
+    keywords.forEach(k => { if(txt.includes(k)) counts[k]++; });
+  });
+
+  for(const k of keywords){
+    document.getElementById("count-"+k).innerText = counts[k];
+  }
+}
+
+document.getElementById("fileInput").addEventListener("change", e=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = evt=>{
+    try{
+      const geojson = JSON.parse(evt.target.result);
+      geojson.features = geojson.features.filter(f=>{
+        const txt = f.properties?.text || "";
+        return keywords.some(k=>txt.includes(k));
+      });
+
+      if(geojson.features.length===0){ alert("No matching features found (出租 / 招租 / 旺铺 / 租售)"); return; }
+
+      updateLegendCounts(geojson.features);
+
+      const layer = L.geoJSON(geojson, {
+        pointToLayer: (feature, latlng)=>{
+          let txt = feature.properties?.text || "";
+          let keywordClass = "";
+          for(const k of keywords) if(txt.includes(k)){ keywordClass="marker-"+k; break; }
+          return L.circleMarker(latlng,{
+            radius:7, fillOpacity:0.8, stroke:false, className: keywordClass
+          });
+        },
+        onEachFeature: (feature, layer)=>{
+          layer.bindPopup(buildPopup(feature.properties || {}), { maxWidth:650 });
+        }
+      }).addTo(map);
+
+      map.fitBounds(layer.getBounds().pad(0.25));
+    } catch(err){
+      alert("Invalid GeoJSON: "+err);
+      console.error(err);
+    }
+  };
+  reader.readAsText(file);
+});
+</script>
+</body>
+</html>

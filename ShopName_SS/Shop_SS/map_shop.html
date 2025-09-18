@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Shop Detections Map (Red Dots)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    html, body, #map { height: 100%; margin: 0; padding: 0; }
+    .popup-img { max-width: 300px; max-height: 200px; display:block; margin-bottom:6px; object-fit:contain; }
+    .prop-table { border-collapse: collapse; width: 100%; font-size: 13px; }
+    .prop-table td { padding: 3px 6px; vertical-align: top; border-top: 1px solid #eee; }
+    .prop-key { font-weight: 600; color: #333; width: 40%; }
+    .missing { color: #999; font-style: italic; }
+    .control-top { position: absolute; z-index: 1000; left: 10px; top: 10px; background: rgba(255,255,255,0.95);
+                   padding: 8px 10px; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.2); font-family: Arial; }
+  </style>
+</head>
+<body>
+  <div class="control-top">
+    Load GeoJSON: <input type="file" id="geojsonInput" accept=".json,.geojson">
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([22.5, 114.1], 15);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const layerGroup = L.layerGroup().addTo(map);
+
+    function esc(s) {
+      if (s === null || s === undefined) return "";
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
+
+    function propsTable(props) {
+      let rows = "";
+      const keys = Object.keys(props).sort();
+      for (const k of keys) {
+        let v = props[k];
+        if (Array.isArray(v)) v = "[" + v.join(", ") + "]";
+        else if (typeof v === "object" && v !== null) v = JSON.stringify(v);
+        rows += `<tr><td class="prop-key">${esc(k)}</td><td>${esc(v)}</td></tr>`;
+      }
+      return `<table class="prop-table">${rows}</table>`;
+    }
+
+    function makePopupContent(feature, baseFolder) {
+      const props = feature.properties || {};
+      const clipped = props.clipped || props.filename || "";
+      const imgPath = clipped ? `${baseFolder}/${clipped}` : null;
+
+      let html = "";
+      if (imgPath) {
+        html += `<img class="popup-img" src="${esc(imgPath)}" alt="${esc(clipped)}"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">`;
+        html += `<div class="missing" style="display:none">Image not found: ${esc(imgPath)}</div>`;
+      } else {
+        html += `<div class="missing">No clipped image specified</div>`;
+      }
+      html += propsTable(props);
+      return html;
+    }
+
+    document.getElementById('geojsonInput').addEventListener('change', function(event){
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const baseFolder = file.webkitRelativePath
+        ? file.webkitRelativePath.replace(/\/[^/]*$/, "")
+        : ".";
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        let geojson;
+        try {
+          geojson = JSON.parse(e.target.result);
+        } catch(err) {
+          alert("Invalid JSON file: " + err.message);
+          return;
+        }
+
+        layerGroup.clearLayers();
+        const features = geojson.features || [];
+        const bounds = [];
+
+        features.forEach((f,i) => {
+          if (!f.geometry || f.geometry.type !== "Point") return;
+          const [lon, lat] = f.geometry.coordinates;
+
+          // Create red dot
+          const marker = L.circleMarker([lat, lon], {
+            radius: 6,
+            color: 'red',
+            fillColor: 'red',
+            fillOpacity: 0.8
+          }).addTo(layerGroup);
+
+          const popupHtml = makePopupContent(f, baseFolder);
+          marker.bindPopup(popupHtml, { maxWidth: 400 });
+
+          const title = (f.properties && (f.properties.shop_name || f.properties.class || f.properties.clipped)) || `feature ${i}`;
+          marker.bindTooltip(esc(title));
+
+          bounds.push([lat, lon]);
+        });
+
+        if (bounds.length) map.fitBounds(bounds, { padding: [40,40] });
+      }
+      reader.readAsText(file, "utf-8");
+    });
+  </script>
+</body>
+</html>

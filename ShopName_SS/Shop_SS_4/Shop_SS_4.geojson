@@ -1,0 +1,2117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1272472346329,
+          22.50566856516602
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.857,
+        "bbox": [
+          1,
+          399,
+          468,
+          515
+        ],
+        "size": [
+          467,
+          116
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_left_strip_001.jpg",
+        "shop_name": "得記美食",
+        "azimuth_deg": 298.3780929706949,
+        "zenith_deg": 6.312940098728728,
+        "image": "ShopName_SS_Shop_SS_4_391_left_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 6.156148817220184
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.127247526036,
+          22.505729681969513
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.829,
+        "bbox": [
+          1292,
+          257,
+          1540,
+          478
+        ],
+        "size": [
+          248,
+          221
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_left_strip_002.jpg",
+        "shop_name": "聚寶閣  bridesmaid agency",
+        "azimuth_deg": 25.139820282480358,
+        "zenith_deg": 22.10593418897244,
+        "image": "ShopName_SS_Shop_SS_4_391_left_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 3.2652124479064764
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.127251119783,
+          22.505746276047155
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.662,
+        "bbox": [
+          1552,
+          81,
+          2044,
+          478
+        ],
+        "size": [
+          492,
+          397
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_left_strip_005.jpg",
+        "shop_name": "瑞昌五金",
+        "azimuth_deg": 44.20444336368866,
+        "zenith_deg": 25.479148441689144,
+        "image": "ShopName_SS_Shop_SS_4_391_left_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 4.6390026085878215
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1272807277093,
+          22.50566352945043
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "class": "a storefront signboard",
+        "confidence": 0.519,
+        "bbox": [
+          568,
+          311,
+          660,
+          555
+        ],
+        "size": [
+          92,
+          244
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_left_strip_006.jpg",
+        "shop_name": "上水平安福音堂",
+        "azimuth_deg": 316.825327800752,
+        "zenith_deg": 12.324534738792515,
+        "image": "ShopName_SS_Shop_SS_4_391_left_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 8.735349180118053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12725455304634,
+          22.50572800668885
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "class": "billboard",
+        "confidence": 0.283,
+        "bbox": [
+          1284,
+          482,
+          1353,
+          538
+        ],
+        "size": [
+          69,
+          56
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_left_strip_007.jpg",
+        "shop_name": "姑姑解菓",
+        "azimuth_deg": 18.076318783326638,
+        "zenith_deg": 0.2603788822212117,
+        "image": "ShopName_SS_Shop_SS_4_391_left_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 3.8695693279930334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1272006754702,
+          22.505746895061208
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.888,
+        "bbox": [
+          5,
+          99,
+          522,
+          484
+        ],
+        "size": [
+          517,
+          385
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_right_strip_001.jpg",
+        "shop_name": "金機械",
+        "azimuth_deg": 119.41279412913285,
+        "zenith_deg": 24.573341101132254,
+        "image": "ShopName_SS_Shop_SS_4_391_right_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 3.7921036224384395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12719896759202,
+          22.505736859899585
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "billboard",
+        "confidence": 0.599,
+        "bbox": [
+          513,
+          449,
+          592,
+          603
+        ],
+        "size": [
+          79,
+          154
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_391_right_strip_003.jpg",
+        "shop_name": "膝片",
+        "azimuth_deg": 132.98976308954227,
+        "zenith_deg": -2.198831602701718,
+        "image": "ShopName_SS_Shop_SS_4_391_right_strip.jpg",
+        "lat_origin": 22.50571722099292,
+        "lon_origin": 114.1272187837844,
+        "distance_meters": 2.9887576100346003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12736483982657,
+          22.506201799601087
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.847,
+        "bbox": [
+          633,
+          277,
+          799,
+          415
+        ],
+        "size": [
+          166,
+          138
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_001.jpg",
+        "shop_name": "世界道學中心",
+        "azimuth_deg": 142.72946471235767,
+        "zenith_deg": 26.433653195638527,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 7.175878703542227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12739852826725,
+          22.506196858215414
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.836,
+        "bbox": [
+          172,
+          407,
+          486,
+          511
+        ],
+        "size": [
+          314,
+          104
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_002.jpg",
+        "shop_name": "就記祥鐵車軸",
+        "azimuth_deg": 120.61381266258945,
+        "zenith_deg": 6.571718171277124,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.410182539270798
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12740544281434,
+          22.506195843996792
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "a storefront signboard",
+        "confidence": 0.824,
+        "bbox": [
+          0,
+          379,
+          185,
+          506
+        ],
+        "size": [
+          185,
+          127
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_003.jpg",
+        "shop_name": "程公司",
+        "azimuth_deg": 112.62472206307372,
+        "zenith_deg": 7.1367866666240305,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 3.9896083681341548
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12739621780686,
+          22.506142815802917
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "class": "a storefront signboard",
+        "confidence": 0.82,
+        "bbox": [
+          1606,
+          378,
+          1931,
+          520
+        ],
+        "size": [
+          325,
+          142
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_004.jpg",
+        "shop_name": "振行改衫 CHUN HONG REFITTING",
+        "azimuth_deg": 221.8001904063327,
+        "zenith_deg": 7.492469319775111,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 3.3314280480106255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12738664743104,
+          22.506144279999624
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.745,
+        "bbox": [
+          1465,
+          435,
+          1590,
+          520
+        ],
+        "size": [
+          125,
+          85
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_005.jpg",
+        "shop_name": "洛豊雲石",
+        "azimuth_deg": 210.68208688031632,
+        "zenith_deg": 5.006173738893204,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.03218383585353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12740097596387,
+          22.506142087840093
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "class": "a storefront signboard",
+        "confidence": 0.732,
+        "bbox": [
+          1956,
+          381,
+          2048,
+          522
+        ],
+        "size": [
+          92,
+          141
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_006.jpg",
+        "shop_name": "明 MIN",
+        "azimuth_deg": 229.09302888729653,
+        "zenith_deg": 5.995807694081007,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 3.0452895234294535
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1273871747448,
+          22.506198523538355
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "class": "a storefront signboard",
+        "confidence": 0.591,
+        "bbox": [
+          482,
+          449,
+          587,
+          515
+        ],
+        "size": [
+          105,
+          66
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_007.jpg",
+        "shop_name": "The shop name displayed on the signage is '大有发'.",
+        "azimuth_deg": 130.612245949695,
+        "zenith_deg": 4.400786895873522,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 5.243977132189211
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1273672606105,
+          22.506201444523
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "class": "a storefront signboard",
+        "confidence": 0.555,
+        "bbox": [
+          646,
+          463,
+          760,
+          529
+        ],
+        "size": [
+          114,
+          66
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_008.jpg",
+        "shop_name": "民國烟酒",
+        "azimuth_deg": 141.74652518010524,
+        "zenith_deg": 2.641590043043844,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 6.954848570558076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12737626904067,
+          22.50620012317577
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "class": "a storefront signboard",
+        "confidence": 0.252,
+        "bbox": [
+          603,
+          462,
+          684,
+          534
+        ],
+        "size": [
+          81,
+          72
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_left_strip_010.jpg",
+        "shop_name": "東方佳",
+        "azimuth_deg": 137.47714366155586,
+        "zenith_deg": 2.201933271887144,
+        "image": "ShopName_SS_Shop_SS_4_392_left_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 6.153336787828479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12744749848724,
+          22.506189675314143
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.806,
+        "bbox": [
+          1806,
+          376,
+          2048,
+          512
+        ],
+        "size": [
+          242,
+          136
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_001.jpg",
+        "shop_name": "同藝駿工 NGAI CHUN ENGIN",
+        "azimuth_deg": 47.0349120171286,
+        "zenith_deg": 7.131197492786561,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.094033837705521
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12743295050001,
+          22.506137195972595
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.735,
+        "bbox": [
+          0,
+          382,
+          310,
+          524
+        ],
+        "size": [
+          310,
+          142
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_002.jpg",
+        "shop_name": "機工程公司 G KEI ENGINEERING CO.",
+        "azimuth_deg": 294.45183329167634,
+        "zenith_deg": 6.358448861092008,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 3.1265328074244203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12746860717861,
+          22.506186579113102
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "billboard",
+        "confidence": 0.632,
+        "bbox": [
+          1437,
+          379,
+          1530,
+          450
+        ],
+        "size": [
+          93,
+          71
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_003.jpg",
+        "shop_name": "上海宠物美容店",
+        "azimuth_deg": 28.119853087648526,
+        "zenith_deg": 14.53066818560525,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 5.625121931051384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12746908383424,
+          22.506186509197747
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "class": "a storefront signboard",
+        "confidence": 0.63,
+        "bbox": [
+          1428,
+          445,
+          1529,
+          503
+        ],
+        "size": [
+          101,
+          58
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_004.jpg",
+        "shop_name": "宜林",
+        "azimuth_deg": 27.816739779511572,
+        "zenith_deg": 5.745370051899857,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 5.664766865569556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12745825619601,
+          22.506188097384534
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.622,
+        "bbox": [
+          1536,
+          465,
+          1721,
+          524
+        ],
+        "size": [
+          185,
+          59
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_005.jpg",
+        "shop_name": "上水寵物診所",
+        "azimuth_deg": 35.895515971294394,
+        "zenith_deg": 2.3033673281436244,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.810147272969492
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12745798817409,
+          22.506188136697713
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "class": "billboard",
+        "confidence": 0.599,
+        "bbox": [
+          1567,
+          297,
+          1700,
+          405
+        ],
+        "size": [
+          133,
+          108
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_006.jpg",
+        "shop_name": "88寵物中心 Pet Centre",
+        "azimuth_deg": 36.131211528453726,
+        "zenith_deg": 20.71411020160302,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.790424582313831
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12745804142182,
+          22.50618812888739
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "class": "billboard",
+        "confidence": 0.385,
+        "bbox": [
+          1577,
+          247,
+          1688,
+          320
+        ],
+        "size": [
+          111,
+          73
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_007.jpg",
+        "shop_name": "The text on the signage reads 'GELA'. This appears to be a partial or incomplete shop name. Given that only part of the potential shop name is visible and no full, clear commercial establishment name can be identified from the image provided, it cannot be confidently determined as a valid complete shop name based on this limited view. Therefore, returning null in such cases ensures accuracy when insufficient information is present.  null",
+        "azimuth_deg": 36.084231762338575,
+        "zenith_deg": 28.264231077306526,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.7943364018209955
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12744248581038,
+          22.506135737140646
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "class": "billboard",
+        "confidence": 0.335,
+        "bbox": [
+          420,
+          522,
+          520,
+          575
+        ],
+        "size": [
+          100,
+          53
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_008.jpg",
+        "shop_name": "新通行",
+        "azimuth_deg": 307.0935673928974,
+        "zenith_deg": -5.224668989019378,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 3.7717090143107344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12743183095115,
+          22.50613736725529
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "class": "billboard",
+        "confidence": 0.306,
+        "bbox": [
+          31,
+          531,
+          155,
+          607
+        ],
+        "size": [
+          124,
+          76
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_009.jpg",
+        "shop_name": "明焱工程公司",
+        "azimuth_deg": 292.638649531402,
+        "zenith_deg": -5.95898275072256,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 3.063051263642438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12745133471755,
+          22.506189112619843
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "class": "a storefront signboard",
+        "confidence": 0.304,
+        "bbox": [
+          1725,
+          473,
+          1858,
+          529
+        ],
+        "size": [
+          133,
+          56
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_392_right_strip_010.jpg",
+        "shop_name": "88毫物中心",
+        "azimuth_deg": 42.645322002180656,
+        "zenith_deg": 1.24208533550436,
+        "image": "ShopName_SS_Shop_SS_4_392_right_strip.jpg",
+        "lat_origin": 22.50616276292131,
+        "lon_origin": 114.1274203664994,
+        "distance_meters": 4.329786254906663
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12772700627912,
+          22.50559286964174
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.839,
+        "bbox": [
+          1941,
+          417,
+          2048,
+          508
+        ],
+        "size": [
+          107,
+          91
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_left_strip_002.jpg",
+        "shop_name": "天主教希望之花堂",
+        "azimuth_deg": 13.043073380559488,
+        "zenith_deg": 4.930055116666792,
+        "image": "ShopName_SS_Shop_SS_4_394_left_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 4.951540349050819
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12773526285616,
+          22.505586910436637
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "a storefront signboard",
+        "confidence": 0.81,
+        "bbox": [
+          1657,
+          414,
+          1809,
+          488
+        ],
+        "size": [
+          152,
+          74
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_left_strip_003.jpg",
+        "shop_name": "T.J.K",
+        "azimuth_deg": 4.576618764434104,
+        "zenith_deg": 7.469370441334045,
+        "image": "ShopName_SS_Shop_SS_4_394_left_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 5.6910636604173375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12773007073977,
+          22.50559065785961
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.77,
+        "bbox": [
+          1809,
+          391,
+          1942,
+          479
+        ],
+        "size": [
+          133,
+          88
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_left_strip_005.jpg",
+        "shop_name": "SST 上水通物業",
+        "azimuth_deg": 9.622512493573968,
+        "zenith_deg": 8.39805016366099,
+        "image": "ShopName_SS_Shop_SS_4_394_left_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 5.212284160123327
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12774261500739,
+          22.505581604003122
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "class": "a storefront signboard",
+        "confidence": 0.749,
+        "bbox": [
+          1548,
+          404,
+          1657,
+          490
+        ],
+        "size": [
+          109,
+          86
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_left_strip_007.jpg",
+        "shop_name": "传统茶餐厅",
+        "azimuth_deg": 358.782709363463,
+        "zenith_deg": 8.866964698078046,
+        "image": "ShopName_SS_Shop_SS_4_394_left_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 6.4304798838812465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1277374796264,
+          22.505585310477176
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "class": "a storefront signboard",
+        "confidence": 0.435,
+        "bbox": [
+          1557,
+          271,
+          1817,
+          398
+        ],
+        "size": [
+          260,
+          127
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_left_strip_009.jpg",
+        "shop_name": "上海通业代理行",
+        "azimuth_deg": 2.6778678426309597,
+        "zenith_deg": 21.733366256263714,
+        "image": "ShopName_SS_Shop_SS_4_394_left_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 5.907346023383912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12773606697019,
+          22.505586330065334
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "class": "a storefront signboard",
+        "confidence": 0.251,
+        "bbox": [
+          1611,
+          269,
+          1820,
+          353
+        ],
+        "size": [
+          209,
+          84
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_left_strip_012.jpg",
+        "shop_name": "工水通商業代理行",
+        "azimuth_deg": 3.8714306882554315,
+        "zenith_deg": 23.792132530843343,
+        "image": "ShopName_SS_Shop_SS_4_394_left_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 5.768778577897846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12768410841491,
+          22.505623831282392
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.9,
+        "bbox": [
+          192,
+          404,
+          470,
+          507
+        ],
+        "size": [
+          278,
+          103
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_right_strip_001.jpg",
+        "shop_name": "康儀貿易",
+        "azimuth_deg": 84.84086097632895,
+        "zenith_deg": 7.017211444369337,
+        "image": "ShopName_SS_Shop_SS_4_394_right_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 4.582696276797898
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12768947672564,
+          22.50561995669072
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.86,
+        "bbox": [
+          0,
+          411,
+          192,
+          514
+        ],
+        "size": [
+          192,
+          103
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_right_strip_002.jpg",
+        "shop_name": "小羊楼區服務中心",
+        "azimuth_deg": 76.86791608288907,
+        "zenith_deg": 5.094739232300635,
+        "image": "ShopName_SS_Shop_SS_4_394_right_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 4.243791042546063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12764410782339,
+          22.505652701809257
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "a storefront signboard",
+        "confidence": 0.83,
+        "bbox": [
+          717,
+          375,
+          925,
+          498
+        ],
+        "size": [
+          208,
+          123
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_right_strip_003.jpg",
+        "shop_name": "新五金",
+        "azimuth_deg": 115.45043541171157,
+        "zenith_deg": 13.509330963275888,
+        "image": "ShopName_SS_Shop_SS_4_394_right_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 8.613914793990874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12767169700575,
+          22.50563278924796
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "class": "a storefront signboard",
+        "confidence": 0.784,
+        "bbox": [
+          506,
+          418,
+          697,
+          528
+        ],
+        "size": [
+          191,
+          110
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_right_strip_004.jpg",
+        "shop_name": "青怡膠片招牌",
+        "azimuth_deg": 98.83409757332214,
+        "zenith_deg": 6.056033736300301,
+        "image": "ShopName_SS_Shop_SS_4_394_right_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 5.628096694232377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12758800727838,
+          22.505586632185857
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.693,
+        "bbox": [
+          1486,
+          474,
+          1666,
+          518
+        ],
+        "size": [
+          180,
+          44
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_394_right_strip_005.jpg",
+        "shop_name": "陈六记饭店",
+        "azimuth_deg": 177.44199157100346,
+        "zenith_deg": 2.19557795454637,
+        "image": "ShopName_SS_Shop_SS_4_394_right_strip.jpg",
+        "lat_origin": 22.50558283118565,
+        "lon_origin": 114.1276801014307,
+        "distance_meters": 9.480604664739197
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12764298707182,
+          22.50565351071449
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "a storefront signboard",
+        "confidence": 0.808,
+        "bbox": [
+          1407,
+          382,
+          1526,
+          482
+        ],
+        "size": [
+          119,
+          100
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_003.jpg",
+        "shop_name": "健康護理之家",
+        "azimuth_deg": 10.277937270216798,
+        "zenith_deg": 12.155591282437154,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 4.256487729276499
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1276317849817,
+          22.505661595851024
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "class": "a storefront signboard",
+        "confidence": 0.696,
+        "bbox": [
+          1702,
+          2,
+          2048,
+          207
+        ],
+        "size": [
+          346,
+          205
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_004.jpg",
+        "shop_name": "氏宗親會",
+        "azimuth_deg": 28.660135294625743,
+        "zenith_deg": 38.15863981732965,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.4600685308116224
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12763192927575,
+          22.50566149170643
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.673,
+        "bbox": [
+          1691,
+          147,
+          2041,
+          448
+        ],
+        "size": [
+          350,
+          301
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_005.jpg",
+        "shop_name": "松茸茶香",
+        "azimuth_deg": 28.374443185911712,
+        "zenith_deg": 22.59276877361668,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.467572667184072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12763871449083,
+          22.5056565944605
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "class": "a storefront signboard",
+        "confidence": 0.52,
+        "bbox": [
+          1520,
+          352,
+          1628,
+          446
+        ],
+        "size": [
+          108,
+          94
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_009.jpg",
+        "shop_name": "善美健能量養生館",
+        "azimuth_deg": 16.391723038935186,
+        "zenith_deg": 15.575062203973543,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.9076121323727646
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12765625078929,
+          22.50564393759328
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "class": "a storefront signboard",
+        "confidence": 0.394,
+        "bbox": [
+          1255,
+          440,
+          1304,
+          504
+        ],
+        "size": [
+          49,
+          64
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_010.jpg",
+        "shop_name": "M",
+        "azimuth_deg": 356.8431688103203,
+        "zenith_deg": 6.997096353120686,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 5.560693648623013
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1276379569541,
+          22.505657141214524
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "class": "a storefront signboard",
+        "confidence": 0.363,
+        "bbox": [
+          1519,
+          308,
+          1676,
+          447
+        ],
+        "size": [
+          157,
+          139
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_012.jpg",
+        "shop_name": "善美健康量餐生馆",
+        "azimuth_deg": 17.587695752935296,
+        "zenith_deg": 18.028898619287105,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.850887107215421
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12764986852332,
+          22.505648544009688
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "class": "a storefront signboard",
+        "confidence": 0.312,
+        "bbox": [
+          1309,
+          421,
+          1393,
+          488
+        ],
+        "size": [
+          84,
+          67
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_left_strip_016.jpg",
+        "shop_name": "The image provided does not contain any discernible shop name or signage. Therefore, the output is:  null",
+        "azimuth_deg": 2.4159413471798805,
+        "zenith_deg": 9.582347688370577,
+        "image": "ShopName_SS_Shop_SS_4_398_left_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 4.9002456949164745
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12759145271168,
+          22.505676513081468
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.906,
+        "bbox": [
+          209,
+          221,
+          660,
+          447
+        ],
+        "size": [
+          451,
+          226
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_001.jpg",
+        "shop_name": "JJ Pub",
+        "azimuth_deg": 108.51287510426457,
+        "zenith_deg": 23.05943134665291,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.5012624256877576
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1275557802397,
+          22.5056819654593
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.866,
+        "bbox": [
+          785,
+          393,
+          993,
+          514
+        ],
+        "size": [
+          208,
+          121
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_002.jpg",
+        "shop_name": "小羊线社区服务中心",
+        "azimuth_deg": 140.59699249880597,
+        "zenith_deg": 10.841042929165555,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 6.186543639846035
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12759907573331,
+          22.505675347936698
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "class": "a storefront signboard",
+        "confidence": 0.766,
+        "bbox": [
+          0,
+          134,
+          188,
+          441
+        ],
+        "size": [
+          188,
+          307
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_004.jpg",
+        "shop_name": "福",
+        "azimuth_deg": 95.86538902840316,
+        "zenith_deg": 22.143457689536643,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.2071667167470648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12753566893011,
+          22.50560945547498
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "class": "a storefront signboard",
+        "confidence": 0.753,
+        "bbox": [
+          1874,
+          397,
+          2047,
+          524
+        ],
+        "size": [
+          173,
+          127
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_005.jpg",
+        "shop_name": "上水通物業",
+        "azimuth_deg": 211.1822041282085,
+        "zenith_deg": 5.263342130336094,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 8.00518002272385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12757518143553,
+          22.50567900007327
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "class": "a storefront signboard",
+        "confidence": 0.714,
+        "bbox": [
+          666,
+          322,
+          813,
+          462
+        ],
+        "size": [
+          147,
+          140
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_006.jpg",
+        "shop_name": "SST 上水通物業",
+        "azimuth_deg": 127.75042062456082,
+        "zenith_deg": 20.037800047101058,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 4.549133746082869
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12759951477527,
+          22.5056752808311
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "class": "a storefront signboard",
+        "confidence": 0.338,
+        "bbox": [
+          0,
+          0,
+          130,
+          129
+        ],
+        "size": [
+          130,
+          129
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_009.jpg",
+        "shop_name": "袁",
+        "azimuth_deg": 95.07369009925293,
+        "zenith_deg": 38.461502884985336,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.1954265215626596
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12759950000765,
+          22.505675283088262
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "class": "billboard",
+        "confidence": 0.273,
+        "bbox": [
+          0,
+          0,
+          132,
+          141
+        ],
+        "size": [
+          132,
+          141
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_398_right_strip_011.jpg",
+        "shop_name": "袁",
+        "azimuth_deg": 95.10041346080104,
+        "zenith_deg": 38.10602578978416,
+        "image": "ShopName_SS_Shop_SS_4_398_right_strip.jpg",
+        "lat_origin": 22.50564668842957,
+        "lon_origin": 114.1276022626162,
+        "distance_meters": 3.1958114641096036
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13177445399405,
+          22.500563146240264
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.527,
+        "bbox": [
+          0,
+          394,
+          74,
+          450
+        ],
+        "size": [
+          74,
+          56
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_44_right_strip_001.jpg",
+        "shop_name": "三案法國",
+        "azimuth_deg": 122.11625907043494,
+        "zenith_deg": 8.851915477626157,
+        "image": "ShopName_SS_Shop_SS_4_44_right_strip.jpg",
+        "lat_origin": 22.50049843220826,
+        "lon_origin": 114.1318184216065,
+        "distance_meters": 8.505563091082314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1301982060053,
+          22.500468967580733
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.432,
+        "bbox": [
+          104,
+          443,
+          255,
+          496
+        ],
+        "size": [
+          151,
+          53
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_45_right_strip_001.jpg",
+        "shop_name": "上水中心 Shopping Centre",
+        "azimuth_deg": 169.19489439675306,
+        "zenith_deg": 4.663259535868848,
+        "image": "ShopName_SS_Shop_SS_4_45_right_strip.jpg",
+        "lat_origin": 22.50045973116312,
+        "lon_origin": 114.1302505891634,
+        "distance_meters": 5.484634040322668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13019886900085,
+          22.500469594713397
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.414,
+        "bbox": [
+          106,
+          443,
+          198,
+          493
+        ],
+        "size": [
+          92,
+          50
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_45_right_strip_002.jpg",
+        "shop_name": "上中 Strong Steel Center",
+        "azimuth_deg": 168.3366156171916,
+        "zenith_deg": 4.725648806456106,
+        "image": "ShopName_SS_Shop_SS_4_45_right_strip.jpg",
+        "lat_origin": 22.50045973116312,
+        "lon_origin": 114.1302505891634,
+        "distance_meters": 5.431353577585973
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13019743258575,
+          22.50046823599714
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "a storefront signboard",
+        "confidence": 0.302,
+        "bbox": [
+          164,
+          445,
+          255,
+          495
+        ],
+        "size": [
+          91,
+          50
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_45_right_strip_003.jpg",
+        "shop_name": "P",
+        "azimuth_deg": 170.1750276364503,
+        "zenith_deg": 4.71939295010016,
+        "image": "ShopName_SS_Shop_SS_4_45_right_strip.jpg",
+        "lat_origin": 22.50045973116312,
+        "lon_origin": 114.1302505891634,
+        "distance_meters": 5.548311189150437
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13032216804467,
+          22.50059129973794
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.256,
+        "bbox": [
+          218,
+          481,
+          287,
+          515
+        ],
+        "size": [
+          69,
+          34
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_46_right_strip_001.jpg",
+        "shop_name": "null",
+        "azimuth_deg": 176.63068527587453,
+        "zenith_deg": 1.5928943109973244,
+        "image": "ShopName_SS_Shop_SS_4_46_right_strip.jpg",
+        "lat_origin": 22.50058822064767,
+        "lon_origin": 114.1303787774977,
+        "distance_meters": 5.832127449338961
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12898864166193,
+          22.501004398202067
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "class": "a storefront signboard",
+        "confidence": 0.285,
+        "bbox": [
+          9,
+          400,
+          139,
+          452
+        ],
+        "size": [
+          130,
+          52
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_50_right_strip_003.jpg",
+        "shop_name": "null",
+        "azimuth_deg": 79.69960509627283,
+        "zenith_deg": 8.697501549614495,
+        "image": "ShopName_SS_Shop_SS_4_50_right_strip.jpg",
+        "lat_origin": 22.50091780107756,
+        "lon_origin": 114.1289716068807,
+        "distance_meters": 9.79789670899938
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1325312079336,
+          22.501006318687047
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.825,
+        "bbox": [
+          1760,
+          412,
+          1951,
+          485
+        ],
+        "size": [
+          191,
+          73
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_63_left_strip_001.jpg",
+        "shop_name": "F18 Beauty 菲18蕴 candies美健",
+        "azimuth_deg": 278.00322291845646,
+        "zenith_deg": 7.042069879694856,
+        "image": "ShopName_SS_Shop_SS_4_63_left_strip.jpg",
+        "lat_origin": 22.50107544815984,
+        "lon_origin": 114.1325206875633,
+        "distance_meters": 7.771182373234217
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13251483173052,
+          22.500992795706704
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "class": "a storefront signboard",
+        "confidence": 0.806,
+        "bbox": [
+          1389,
+          393,
+          1755,
+          477
+        ],
+        "size": [
+          366,
+          84
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_63_left_strip_002.jpg",
+        "shop_name": "Genius Artist",
+        "azimuth_deg": 266.2550291764424,
+        "zenith_deg": 10.750257641234082,
+        "image": "ShopName_SS_Shop_SS_4_63_left_strip.jpg",
+        "lat_origin": 22.50107544815984,
+        "lon_origin": 114.1325206875633,
+        "distance_meters": 9.220560111894116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13259268535731,
+          22.501057084911007
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.698,
+        "bbox": [
+          0,
+          429,
+          94,
+          498
+        ],
+        "size": [
+          94,
+          69
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_63_right_strip_001.jpg",
+        "shop_name": "上海266",
+        "azimuth_deg": 344.5667971562561,
+        "zenith_deg": 4.810119112520124,
+        "image": "ShopName_SS_Shop_SS_4_63_right_strip.jpg",
+        "lat_origin": 22.50107544815984,
+        "lon_origin": 114.1325206875633,
+        "distance_meters": 7.681636374152148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13270956854734,
+          22.50135948383682
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.501,
+        "bbox": [
+          1,
+          215,
+          307,
+          487
+        ],
+        "size": [
+          306,
+          272
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_77_right_strip_001.jpg",
+        "shop_name": "null",
+        "azimuth_deg": 161.19307156312505,
+        "zenith_deg": 16.98727705972545,
+        "image": "ShopName_SS_Shop_SS_4_77_right_strip.jpg",
+        "lat_origin": 22.50133233911914,
+        "lon_origin": 114.1327958419785,
+        "distance_meters": 9.373250265283165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13059269882517,
+          22.50082818154846
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.497,
+        "bbox": [
+          0,
+          381,
+          146,
+          480
+        ],
+        "size": [
+          146,
+          99
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_92_right_strip_001.jpg",
+        "shop_name": "The image does not contain any visible shop name or signage.",
+        "azimuth_deg": 138.9565905784535,
+        "zenith_deg": 8.240034019673478,
+        "image": "ShopName_SS_Shop_SS_4_92_right_strip.jpg",
+        "lat_origin": 22.50076929609449,
+        "lon_origin": 114.1306659083471,
+        "distance_meters": 9.982977290777853
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13191695874207,
+          22.502365915068776
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.611,
+        "bbox": [
+          1758,
+          385,
+          1899,
+          434
+        ],
+        "size": [
+          141,
+          49
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_98_left_strip_001.jpg",
+        "shop_name": "校學貨育",
+        "azimuth_deg": 279.8470557019316,
+        "zenith_deg": 11.551312772686119,
+        "image": "ShopName_SS_Shop_SS_4_98_left_strip.jpg",
+        "lat_origin": 22.50243456029631,
+        "lon_origin": 114.1319040616424,
+        "distance_meters": 7.755847605498953
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13103300841483,
+          22.502363322683372
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "class": "a storefront signboard",
+        "confidence": 0.536,
+        "bbox": [
+          2,
+          12,
+          223,
+          161
+        ],
+        "size": [
+          221,
+          149
+        ],
+        "clipped": "ShopName_SS_Shop_SS_4_99_left_strip_001.jpg",
+        "shop_name": "市政大廈",
+        "azimuth_deg": 74.99502853093644,
+        "zenith_deg": 38.06690752240319,
+        "image": "ShopName_SS_Shop_SS_4_99_left_strip.jpg",
+        "lat_origin": 22.50227655450467,
+        "lon_origin": 114.1310078342283,
+        "distance_meters": 9.999999999891202
+      }
+    }
+  ]
+}
